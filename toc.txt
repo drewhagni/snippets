@@ -1,1 +1,52 @@
-temp
+/* # Table of Contents
+- Variables
+- Defaults
+    - Typography
+        - Headings
+    - Images
+        - Icons
+    - Components
+    - Links
+    - Buttons
+    - Forms
+    - Tables
+    - Misc
+    - Screen Reader Text
+    - Clearing
+- Structure and Layout
+    - Site Containers
+- Search & Error 404
+- Widgets
+- Plugins
+    - Slick
+- Site Header
+    - Title Area
+    - Widget Area
+- Site Navigation
+    - Accessible Menu
+    - Site Header Navigation
+    - Primary Navigation
+    - Secondary Navigation
+    - Skip Links
+- Content Area
+    - Entries
+    - Entry Meta
+    - Pagination
+    - Comments
+- Sidebars
+- Footer
+- Elements
+- Feeds
+    - Single
+- Pages
+    - Main
+    - Home Page
+    - About Page
+    - HPS Page
+- Animations
+- Media Queries
+    - Retina Display
+    - Max-width: 1200px
+    - Max-width: 960px
+    - Max-width: 800px
+*/
