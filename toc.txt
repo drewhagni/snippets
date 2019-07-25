@@ -1,52 +1,41 @@
-/* # Table of Contents
 - Variables
-- Defaults
-    - Typography
-        - Headings
-    - Images
-        - Icons
-    - Components
-    - Links
-    - Buttons
-    - Forms
-    - Tables
-    - Misc
-    - Screen Reader Text
-    - Clearing
-- Structure and Layout
-    - Site Containers
-- Search & Error 404
-- Widgets
-- Plugins
-    - Slick
-- Site Header
-    - Title Area
-    - Widget Area
-- Site Navigation
-    - Accessible Menu
-    - Site Header Navigation
-    - Primary Navigation
-    - Secondary Navigation
-    - Skip Links
-- Content Area
-    - Entries
-    - Entry Meta
-    - Pagination
-    - Comments
-- Sidebars
+- Typography
+    + Heading
+    + Paragraphs
+    + Lists
+- UI Elements
+    + Links
+    + Buttons
+    + Images
+    + Icons
+    + Forms
+    + Tables
+    + Accordions
+    + Tabs
+    + Callouts
+    + Misc
+- Layout
+- Header
+    + Logo
+    + Navigation
+        * Primary Navigation
+        * Secondary Navigation
+        * Mobile Navigation
+    + Search
+- Sidebar(s)
 - Footer
-- Elements
-- Feeds
-    - Single
+    + Call to Action
+- Posts
+    + Feeds
+        * Blog
+        * Archive
+        * Search Results
+    + Pagination
+    + Single Posts
+        * Comments
 - Pages
-    - Main
-    - Home Page
-    - About Page
-    - HPS Page
+    + Default Page
+    + Error 404 Page
+    + Home Page
+- Plugins
 - Animations
-- Media Queries
-    - Retina Display
-    - Max-width: 1200px
-    - Max-width: 960px
-    - Max-width: 800px
-*/
