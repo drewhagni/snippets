@@ -1,0 +1,65 @@
+ul {
+	display: table;
+	margin-left: 0;
+	padding: 0;
+	& > li {
+		list-style-type: none;
+		display: inherit;
+		margin-bottom: 10px;
+		position: relative;
+		&:before {
+			content: '';
+			display: table-cell;
+			width: 40px;
+		} // :before
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 25px;
+			height: 3px;
+			background-color: blue;
+			border-radius: 5px;
+			-webkit-transform: translateY(13px);
+			    -ms-transform: translateY(13px);
+					transform: translateY(13px);
+		} // :after		
+	} // li
+} // ul
+
+ol {
+	display: table;
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+	counter-reset: custom-counter;
+	position: relative;
+	& > li {
+		list-style-type: none;
+		display: block;
+		counter-increment: custom-counter;
+		position: relative;
+		margin: 20px 0;
+		padding: 0 0 0 60px;
+		&:before {
+			display: table-cell;
+			width: 45px;
+			padding: 10px 5px;
+			content: counter(custom-counter);
+			background-color: blue;
+			color: #fff;
+			font-weight: 400;
+			text-align: center;
+			line-height: 1;
+			border-radius: 5px;
+			position: absolute;
+			left: 0;
+			top: -13px;
+			-webkit-transform: translateY(10px);
+				-ms-transform: translateY(10px);
+					transform: translateY(10px);
+		} // :before
+	} // li
+} // ol
