@@ -22,27 +22,5 @@ function my_excerpt_length($length) {
 // Allow shortcodes in widgets
 add_filter( 'widget_text', 'do_shortcode' );
 
-/*
-add_filter( 'admin_post_thumbnail_html', 'custom_admin_post_thumbnail_html' );
-function custom_admin_post_thumbnail_html( $content ) {
-    return $content = str_replace( __( 'Set featured image' ), __( 'Set default image' ), $content); 
-}
-
-
-// 1
-add_filter( 'admin_post_thumbnail_html', 'custom_admin_post_thumbnail_html' );
-function custom_admin_post_thumbnail_html( $content ) {
-	return $content = str_replace( __( 'Set featured image' ), __( 'Set featured image (315w x 190h)' ), $content);
-}
-
-// 2
-add_filter(  'gettext',  'change_featuredimage_txt'  );
-add_filter(  'ngettext',  'change_featuredimage_txt'  );
-function change_featuredimage_txt( $translated ) {
-	$translated = str_ireplace(  'Featured Image',  'Featured image (315w x 190h)',  $translated );
-	return $translated;
-}
-*/
-
 //* Add New Image Sizes
 add_image_size( 'profile', 500, 500, true );
