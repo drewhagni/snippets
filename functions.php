@@ -2,6 +2,8 @@
 // Start the engine
 include_once( get_template_directory() . '/lib/init.php' );
 
+// Test
+
 // Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'Example' );
 define( 'CHILD_THEME_URL', 'http://example.com/' );
