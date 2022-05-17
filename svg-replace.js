@@ -1,3 +1,5 @@
+// Haven't tried this yet, but here's a simpler(?) script: https://dev.to/luisaugusto/how-to-convert-image-tags-with-svg-files-into-inline-svg-tags-3jfl
+
 // Replace SVG images with inline SVG
 $('img[src$=".svg"]').each(function(){
 
